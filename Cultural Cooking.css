@@ -1,0 +1,262 @@
+header,nav,main,footer
+{
+    display:block;
+}
+body
+{
+    background-image: url(background.gif);
+    background-color:lightgoldenrodyellow;
+    color:#221811;
+    font-family: Arial;
+}
+*
+{
+    box-sizing:border-box;
+}
+#mySubmit
+{
+    margin-left:9.5em;
+}
+td,th
+{
+padding:10px;
+}
+tr:nth-of-type(odd)
+{
+    background-color:olivedrab;
+}
+header
+{
+    background-color:olive;
+    height: 150px;
+  background-image:url(flag.jpg);
+  background-repeat:no-repeat;
+  position:relative;
+}
+h1
+{
+    padding-top:45px;
+    padding-left:100px;
+    font-size: 2.5em;
+    text-align:center;
+    text-decoration-color:white;
+}
+#ShahreenHussainPic
+{
+    range:url(ShahreenHussainPic.jpg);
+    background-size:50%;
+    background-repeat:no-repeat;
+    height: 150px;
+}
+nav
+{
+    float: right;
+    width:150px;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.0em;
+    padding-top:5px;
+    background-color: olivedrab;
+    overflow:auto;
+    position: absolute;
+    top:5;
+}
+nav a
+{
+    text-decoration-line:none;
+}
+nav a:link
+{
+    color:#FEF6C2;
+}
+nav a:visited
+{
+    color:beige;
+}
+nav a:hover
+{
+    color:forestgreen;
+}
+nav ul
+{
+    list-style-type:none;
+    padding-left:0px;
+}
+h4
+{
+    background-color:#D2B48C;
+    font-size:1.2em;
+    padding-left:10px;
+    padding-bottom:5px;
+    text-transform:uppercase;
+    border-bottom:solid black;
+    padding-bottom:0;
+    clear:left;
+}
+main
+{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 0em;
+    margin-left:100px;
+    background-color:lightyellow;  
+}
+img
+{
+padding-left:8px;
+padding-right:8px;
+}
+form
+{
+padding:1em;
+}
+label
+{
+    float:left;
+    display:block;
+    text-align:center;
+    width:10em;
+    padding-right:2em;
+}
+input,textarea
+{
+    display:block;
+    margin-bottom:2em;
+}
+#mySubmit
+{
+    margin-left: 8em;
+}
+.float
+{
+    float:left;
+    padding-left:10px;
+    position:relative;
+}
+footer
+{
+    background-color:olivedrab;
+    font-size:1em;
+    font-family:italics;
+    text-align:right;
+    padding-bottom:10px;
+    border-top:2px;
+    border-color:grey;
+}
+#mobile
+{
+    display:none;
+}
+#desktop
+{
+  display:inline;  
+}
+@media only screen and (max-width:1024px)
+{
+    body
+    {
+        margin:0; 
+        background-image:none;
+    }    
+    header
+    {
+        border-bottom:5px;
+        border-color: solid olive;
+
+    }
+    h1
+    {
+    margin-top:0;
+    margin-bottom:.5em;
+    padding-top:.5em;
+    padding-bottom:.5em;
+    font-size:1.7em;
+    }
+    nav
+    {
+        float:top;
+        width:auto;
+        padding-top:0;
+        margin:8px;
+        font-size:1.1em;
+    }
+    nav li
+    {
+        display:inline;
+    }
+    nav a
+    {
+        padding:1em;
+        width:7em;
+        font-weight:bold;
+        border-style:none;
+    }
+    nav ul
+    {
+    padding:0;
+    margin:0;
+    }
+    main
+    {
+        padding:0;
+        margin:0;
+        font-size:85%;
+    }
+}
+@media only screen and (max-width:760px)
+{
+    header
+    {
+        background-image:"Flagmini.jpg";
+        height:115px;
+    }
+    h1
+    {
+        font-size:1.5em;
+        text-align:center;
+        padding-left:0;
+    }
+    nav
+    {
+        margin:0;
+        float:top;
+    }
+    nav a
+    {
+        display:block;
+        padding:0.2em;
+        width:auto;
+        border-bottom:1px;
+        border-color:lightyellow;
+    }
+    nav li
+    {
+        display:block;
+    }
+    main
+    {
+        padding-top:1px;
+    }
+    h2
+    {
+        padding-top:0.5em;
+        padding-right:0;
+        padding-bottom:0;
+        padding-left:0.5em;
+        margin-right:0.5em;
+    }
+    .float
+    {
+    float:left;
+    padding-left:10px;
+    position:relative;
+    }
+    #mobile
+    {
+        display:inline;
+    }
+    #desktop
+    {
+        display:none;
+    }
+}
